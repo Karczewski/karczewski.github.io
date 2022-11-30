@@ -1,3 +1,8 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins';
 }
@@ -68,6 +73,7 @@ body {
     font-weight: 600;
     color: #fff;
     text-align: center;
+    white-space: pre-wrap;
 }
 
 /* Block section */
