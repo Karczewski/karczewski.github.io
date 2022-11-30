@@ -6,6 +6,11 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    font-family: 'Poppins';
+    margin: 0;
+}
+
 /* Site navigation */
 #site-navigation {
     position: sticky;
@@ -31,13 +36,14 @@ html {
 #menu .menu-item a {
     text-decoration: none;
     padding: 4px 8px;
+    color: #343434;
 }
 
 #menu .menu-item::before {
     position: absolute;
     content: "";
     width: 0px;
-    left: 16px;
+    left: 0;
     bottom: 0;
     height: 2px;
     background-color: aquamarine;
@@ -119,6 +125,10 @@ html {
     flex-direction: row;
     max-width: 1400px;
     padding: 0 16px;
+}
+
+.container .col {
+    margin: 0 16px;
 }
 
 /* footer */
