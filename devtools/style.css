@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     overflow-x: hidden;
 }
@@ -73,7 +77,6 @@ body {
     font-weight: 600;
     color: #fff;
     text-align: center;
-    white-space: pre-wrap;
 }
 
 /* Block section */
@@ -131,4 +134,5 @@ body {
 /* footer */
 footer {
     padding: 12px 0;
+    margin-top: 50px;
 }
