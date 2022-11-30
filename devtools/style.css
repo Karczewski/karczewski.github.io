@@ -46,7 +46,7 @@ body {
 #site-hero {
     width: 100vw;
     min-height: 100vh;
-    background-image: url('/assets/hero.jpg');
+    background-image: url('/devtools/hero.jpg');
 }
 
 #site-hero .hero__content {
